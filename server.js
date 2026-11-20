@@ -2,7 +2,7 @@
 // Sheep Royale 14.9: dependency-free HTTP and WebSocket server for private friend rooms.
 const http = require('node:http');
 const fs = require('node:fs');
-const path = require('node:path');
+const PUBLIC = __dirname;
 const crypto = require('node:crypto');
 
 const PORT = Number(process.env.PORT || 3000);
