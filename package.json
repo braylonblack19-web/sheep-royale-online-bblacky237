@@ -1,0 +1,9 @@
+{
+  "name": "sheep-royale-friends",
+  "version": "14.9.0",
+  "private": true,
+  "description": "Sheep Royale 14.9 browser game and private multiplayer rooms",
+  "scripts": { "start": "node server.js", "test": "node --test tests/*.test.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {}
+}
